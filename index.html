@@ -1,1 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preeti Dwivedi | Senior GenAI Engineer</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f0f1a; color: #e0e0e0; line-height: 1.6; }
+.hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); padding: 80px 40px; text-align: center; border-bottom: 1px solid #2a2a4a; }
+.hero h1 { font-size: 48px; font-weight: 700; color: #fff; margin-bottom: 12px; }
+.hero .title { font-size: 20px; color: #7c9cbf; margin-bottom: 8px; }
+.hero .location { font-size: 15px; color: #888; margin-bottom: 32px; }
+.tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 32px; }
+.tag { background: rgba(99, 179, 237, 0.15); color: #63b3ed; border: 1px solid rgba(99, 179, 237, 0.3); padding: 6px 16px; border-radius: 20px; font-size: 13px; }
+.links { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+.links a { color: #63b3ed; text-decoration: none; font-size: 14px; display: flex; align-items: center; gap: 6px; padding: 8px 20px; border: 1px solid rgba(99, 179, 237, 0.3); border-radius: 6px; transition: all 0.2s; }
+.links a:hover { background: rgba(99, 179, 237, 0.15); }
+.section { max-width: 900px; margin: 0 auto; padding: 60px 40px; }
+.section h2 { font-size: 28px; font-weight: 600; color: #fff; margin-bottom: 8px; }
+.section-line { width: 50px; height: 3px; background: #63b3ed; margin-bottom: 40px; border-radius: 2px; }
+.summary { background: #1a1a2e; border: 1px solid #2a2a4a; border-radius: 12px; padding: 28px; font-size: 15px; color: #b0b8c8; line-height: 1.8; }
+.impact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 48px; }
+.impact-card { background: #1a1a2e; border: 1px solid #2a2a4a; border-radius: 10px; padding: 20px; text-align: center; }
+.impact-card .number { font-size: 32px; font-weight: 700; color: #63b3ed; }
+.impact-card .label { font-size: 12px; color: #888; margin-top: 4px; }
+.project-card { background: #1a1a2e; border: 1px solid #2a2a4a; border-radius: 12px; padding: 28px; margin-bottom: 20px; }
+.project-card h3 { font-size: 18px; font-weight: 600; color: #fff; margin-bottom: 8px; }
+.project-card .project-meta { font-size: 12px; color: #63b3ed; margin-bottom: 12px; }
+.project-card p { font-size: 14px; color: #b0b8c8; line-height: 1.7; margin-bottom: 12px; }
+.tech-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tech-tag { background: rgba(99, 179, 237, 0.1); color: #63b3ed; border: 1px solid rgba(99, 179, 237, 0.2); padding: 3px 10px; border-radius: 4px; font-size: 12px; }
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+.skill-category { background: #1a1a2e; border: 1px solid #2a2a4a; border-radius: 10px; padding: 20px; }
+.skill-category h4 { font-size: 13px; color: #63b3ed; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; }
+.skill-item { font-size: 13px; color: #b0b8c8; padding: 4px 0; border-bottom: 1px solid #2a2a4a; }
+.skill-item:last-child { border-bottom: none; }
+.experience-item { border-left: 2px solid #2a2a4a; padding-left: 24px; margin-bottom: 32px; position: relative; }
+.experience-item::before { content: ''; width: 10px; height: 10px; background: #63b3ed; border-radius: 50%; position: absolute; left: -6px; top: 6px; }
+.experience-item h3 { font-size: 16px; font-weight: 600; color: #fff; }
+.experience-item .company { font-size: 14px; color: #63b3ed; margin-bottom: 4px; }
+.experience-item .period { font-size: 12px; color: #888; margin-bottom: 10px; }
+.experience-item p { font-size: 13px; color: #b0b8c8; line-height: 1.7; }
+.contact { background: #1a1a2e; border: 1px solid #2a2a4a; border-radius: 12px; padding: 40px; text-align: center; }
+.contact h3 { font-size: 22px; color: #fff; margin-bottom: 8px; }
+.contact p { color: #888; margin-bottom: 24px; }
+.contact-links { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+.contact-links a { color: #63b3ed; text-decoration: none; font-size: 14px; padding: 10px 24px; border: 1px solid rgba(99, 179, 237, 0.3); border-radius: 6px; }
+.contact-links a:hover { background: rgba(99, 179, 237, 0.15); }
+.badge-mcp { background: rgba(168, 85, 247, 0.15); color: #a855f7; border: 1px solid rgba(168, 85, 247, 0.3); padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+footer { text-align: center; padding: 24px; color: #555; font-size: 12px; border-top: 1px solid #2a2a4a; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Preeti Dwivedi</h1>
+  <div class="title">Senior Python Developer & GenAI Engineer</div>
+  <div class="location">📍 Dubai&nbsp;|&nbsp; Available Immediately</div>
+  <div class="tags">
+    <span class="tag">LangGraph</span>
+    <span class="tag">RAG Pipelines</span>
+    <span class="tag">MCP Integrations</span>
+    <span class="tag">Azure OpenAI</span>
+    <span class="tag">Amazon Bedrock</span>
+    <span class="tag">Multi-Agent Systems</span>
+    <span class="tag">Langfuse</span>
+    <span class="tag">AWS Serverless</span>
+  </div>
+  <div class="links">
+    <a href="https://www.linkedin.com/in/preeti-dwivedi-639043131/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Preeti-2108" target="_blank">GitHub</a>
+    <a href="mailto:dwivedipreeti.210892@gmail.com">Email Me</a>
+    <a href="tel:+971552560464">+971 552 560 464</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2>About</h2>
+  <div class="section-line"></div>
+  <div class="summary">
+    Senior Python Developer and GenAI Engineer with <strong>10+ years</strong> of experience building production-grade AI systems. 
+    Specialist in <strong>Agentic AI</strong> — designing and deploying RAG pipelines, LangGraph multi-agent orchestration, 
+    and MCP integrations that connect LLM agents to live enterprise systems. 
+    My work focuses on building AI that creates measurable business impact — not demos, not prototypes — 
+    real systems processing hundreds of operations weekly in production.
+  </div>
+</div>
+
+<div style="background: #0f0f1a; padding: 0 40px 20px;">
+  <div style="max-width: 900px; margin: 0 auto;">
+    <div class="impact-grid">
+      <div class="impact-card">
+        <div class="number">80%</div>
+        <div class="label">Ticket handling time reduced</div>
+      </div>
+      <div class="impact-card">
+        <div class="number">10+</div>
+        <div class="label">Years Python experience</div>
+      </div>
+      <div class="impact-card">
+        <div class="number">2+</div>
+        <div class="label">Years production GenAI</div>
+      </div>
+      <div class="impact-card">
+        <div class="number">3</div>
+        <div class="label">Enterprise AI systems built</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Projects</h2>
+  <div class="section-line"></div>
+
+  <div class="project-card">
+    <h3>Live Assist & Real-Time Transcription Platform</h3>
+    <div class="project-meta">Production System · Sopra Steria · Enterprise IT Operations</div>
+    <p>IT Operations engineers were spending 25-30 minutes per ticket on manual documentation. Built a GenAI-powered platform where engineers speak while resolving incidents — AWS Transcribe converts speech to text in real time, an LLM structures and formats the resolution notes, and automation pushes them directly into ServiceNow.</p>
+    <p><strong style="color:#63b3ed;">Result:</strong> Ticket documentation reduced from 30 minutes to under 5 minutes — 80% reduction. Adopted across the full operations team processing hundreds of tickets weekly.</p>
+    <div class="tech-tags">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">AWS Transcribe</span>
+      <span class="tech-tag">AWS Lambda</span>
+      <span class="tech-tag">Azure OpenAI</span>
+      <span class="tech-tag">RAG</span>
+      <span class="tech-tag">ServiceNow</span>
+      <span class="tech-tag">DynamoDB</span>
+      <span class="tech-tag">Langfuse</span>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>MCP-Based ServiceNow Integration <span class="badge-mcp">MCP</span></h3>
+    <div class="project-meta">Production System · Sopra Steria · Multi-Agent Architecture</div>
+    <p>Built a LangGraph multi-agent system with planner/executor/validator architecture connected to ServiceNow via Model Context Protocol (MCP). Agents autonomously fetch open tickets, read incident details, update resolution notes, and change ticket status through natural-language-driven tool calls.</p>
+    <p><strong style="color:#63b3ed;">Architecture:</strong> Planner analyses incident → Executor carries out actions via MCP tools → Validator checks output quality → Human escalation if needed. Loop detection prevents infinite retries.</p>
+    <div class="tech-tags">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">LangGraph</span>
+      <span class="tech-tag">LangChain</span>
+      <span class="tech-tag">MCP</span>
+      <span class="tech-tag">ServiceNow API</span>
+      <span class="tech-tag">Amazon Bedrock</span>
+      <span class="tech-tag">AWS Lambda</span>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>AI Knowledge Manager — Self-Improving RAG System</h3>
+    <div class="project-meta">Production System · Sopra Steria · Knowledge Management</div>
+    <p>Resolved incidents were being closed with no knowledge capture — valuable resolution steps were locked inside individual tickets. Built an automated Knowledge Manager that monitors resolved ServiceNow tickets, assesses resolution quality via LLM evaluation, generates structured knowledge articles, and feeds them back into the RAG knowledge base.</p>
+    <p><strong style="color:#63b3ed;">Result:</strong> Self-improving knowledge loop — every resolved incident enriches future retrievals, reducing repeat investigation time and accelerating new engineer onboarding.</p>
+    <div class="tech-tags">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">LLM Pipeline</span>
+      <span class="tech-tag">RAG</span>
+      <span class="tech-tag">Amazon S3</span>
+      <span class="tech-tag">Vector Storage</span>
+      <span class="tech-tag">ServiceNow</span>
+      <span class="tech-tag">AWS Lambda</span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Skills</h2>
+  <div class="section-line"></div>
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h4>GenAI & LLM</h4>
+      <div class="skill-item">LangChain / LangGraph</div>
+      <div class="skill-item">RAG Pipelines</div>
+      <div class="skill-item">MCP Integrations</div>
+      <div class="skill-item">Prompt Engineering</div>
+      <div class="skill-item">Multi-Agent Systems</div>
+      <div class="skill-item">Tool Calling / HITL</div>
+    </div>
+    <div class="skill-category">
+      <h4>Cloud & AI Platforms</h4>
+      <div class="skill-item">Azure OpenAI</div>
+      <div class="skill-item">Amazon Bedrock</div>
+      <div class="skill-item">AWS Lambda</div>
+      <div class="skill-item">API Gateway</div>
+      <div class="skill-item">Amazon Transcribe</div>
+      <div class="skill-item">DynamoDB / S3</div>
+    </div>
+    <div class="skill-category">
+      <h4>Backend Engineering</h4>
+      <div class="skill-item">Python (10+ years)</div>
+      <div class="skill-item">FastAPI / Flask</div>
+      <div class="skill-item">REST APIs</div>
+      <div class="skill-item">Microservices</div>
+      <div class="skill-item">Serverless Architecture</div>
+      <div class="skill-item">Event-Driven Systems</div>
+    </div>
+    <div class="skill-category">
+      <h4>Observability</h4>
+      <div class="skill-item">Langfuse</div>
+      <div class="skill-item">LLM Latency Tracking</div>
+      <div class="skill-item">Token Usage Monitoring</div>
+      <div class="skill-item">Structured Logging</div>
+      <div class="skill-item">Production Debugging</div>
+      <div class="skill-item">Cost Optimisation</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Experience</h2>
+  <div class="section-line"></div>
+
+  <div class="experience-item">
+    <h3>Technical Lead — Senior Python Developer & GenAI Engineer</h3>
+    <div class="company">Sopra Steria</div>
+    <div class="period">April 2023 – Present</div>
+    <p>Built production Agentic AI systems including the Live Assist platform, MCP-based ServiceNow integration, and AI Knowledge Manager. Reduced IT Operations ticket handling time by 80% through real-time transcription, RAG, and autonomous agent workflows. Implemented LLM observability via Langfuse across all production systems.</p>
+  </div>
+
+  <div class="experience-item">
+    <h3>Technical Lead — Python Backend Developer</h3>
+    <div class="company">Wipro</div>
+    <div class="period">February 2022 – April 2023</div>
+    <p>Designed and developed Python backend microservices and RESTful APIs for large-scale enterprise orchestration platforms. Implemented data validation engines and high-volume telemetry data pipelines handling concurrent API loads.</p>
+  </div>
+
+  <div class="experience-item">
+    <h3>Senior Software Engineer — Python Developer</h3>
+    <div class="company">CDK Global</div>
+    <div class="period">April 2020 – February 2022</div>
+    <p>Led Python modernisation programme migrating legacy Perl applications to modular Python microservices. Designed RESTful APIs integrating dealer management systems with enterprise platforms.</p>
+  </div>
+
+  <div class="experience-item">
+    <h3>Software Engineer — Backend Developer</h3>
+    <div class="company">Orange Business Services</div>
+    <div class="period">December 2015 – March 2020</div>
+    <p>Built backend monitoring and analytics services within a global telecom enterprise environment. Implemented alerting mechanisms reducing false-positive alerts by 30% and improving incident response time.</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Get in touch</h2>
+  <div class="section-line"></div>
+  <div class="contact">
+    <h3>Open to opportunities in Dubai & UAE</h3>
+    <p>Available immediately · Visa sponsorship required · Senior AI Engineer / GenAI Engineer roles</p>
+    <div class="contact-links">
+      <a href="mailto:dwivedipreeti.210892@gmail.com">dwivedipreeti.210892@gmail.com</a>
+      <a href="tel:+971552560464">+971 552 560 464</a>
+      <a href="https://www.linkedin.com/in/preeti-dwivedi-639043131/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Preeti-2108" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Preeti Dwivedi · Senior GenAI Engineer · Dubai, UAE · 2026
+</footer>
+
+</body>
+</html>
 
